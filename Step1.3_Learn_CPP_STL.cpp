@@ -5,7 +5,7 @@
 
 // #include<bits/stdc++.h> -- have all the library inside this
 
-/* #include<bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 // void function does'nt return anything
@@ -23,7 +23,7 @@ int main(){
     int s = sum(1,5);
     cout << s ;
     return 0;
-} */
+}
 
 // C++ STL is Divided into 4 Parts
 // 1. Algorithms
@@ -155,7 +155,5 @@ int main(){
     explainPair();
 
     explainVector();
-
-
-
+    
 }
