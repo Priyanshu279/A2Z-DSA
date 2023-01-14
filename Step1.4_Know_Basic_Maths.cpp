@@ -95,14 +95,70 @@ void check_Armstrong(int n){
 // A divisor is a number that gives remainder as zero when divided
 
 void print_Divisor(int n){
-    for(int i = 1; i<=n; i++){
-        if(n%i == 0) cout << i << " ";
+    vector<int> v1;
+    for(int i = 1; i<=sqrt(n); i++){
+        if(n%i == 0) {
+        v1.push_back(i);
+        if(n/i != i){
+            v1.push_back(n/i);
+        }
+        }
     }
+    sort(v1.begin(),v1.end());
+    for(auto it: v1) cout << it << " ";
+}
+
+// Prime Number
+// A number that has exactly 2 factors 1 & a no. itself 
+
+void check_Prime(int n){
+    bool d = false;
+    for(int i = 2; i<n; i++){
+        if(n%i==0){
+            d = true;
+        }
+    }
+
+    if(!d) cout << "prime";
+    else cout << "not prime";
+}
+
+// GCD/HCF (Greatest Common Divisor) 
+// N1 = 9, N2 = 12 
+// (factor of 9 = 1,3,9)
+// (factor of 12 = 1,2,6,12,3,4)
+// so gcd of 9 & 12 = 3
+
+void print_GCD(int num1, int num2){
+    int gcd;
+    for(int i = 1; i<=min(num1,num2); i++){
+        if(num1%i==0 && num2%i==0){
+            gcd = i;
+        }
+    }
+    cout << gcd;
+}
+
+// Using Euclidean's Algorithm
+// gcd(n1,n2) = gcd(n1-n2,n2) where n1>n2
+
+void check_GCD(int n1,int n2){
+    while(n1>0 && n2>0){
+        if(n1>n2) n1 = n1%n2;
+        else n2 = n2 % n1;
+    }
+    
+    if(n1==0) cout << n2;
+    cout << n1;
 }
 
 int main(){
-    int n;
-    cin >> n;
+
+    // int n;
+    // cin >> n;
+
+    int n1,n2;
+    cin >> n1 >> n2;
     
     // extraction_Of_Digits(n);
 
@@ -115,5 +171,11 @@ int main(){
     // check_Armstrong(n);
 
     // print_Divisor(n);
+
+    // check_Prime(n);
+
+    // print_GCD(n1,n2);
+
+    // check_GCD(n1,n2);
     
 } 
