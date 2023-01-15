@@ -154,28 +154,28 @@ void check_GCD(int n1,int n2){
 
 int main(){
 
-    // int n;
-    // cin >> n;
+    int n;
+    cin >> n;
 
     int n1,n2;
     cin >> n1 >> n2;
     
-    // extraction_Of_Digits(n);
+    extraction_Of_Digits(n);
 
-    // count_Digits(n);
+    count_Digits(n);
 
-    // reverse_Number(n);
+    reverse_Number(n);
 
-    // check_Palindrome(n);
+    check_Palindrome(n);
 
-    // check_Armstrong(n);
+    check_Armstrong(n);
 
-    // print_Divisor(n);
+    print_Divisor(n);
 
-    // check_Prime(n);
+    check_Prime(n);
 
-    // print_GCD(n1,n2);
+    print_GCD(n1,n2);
 
-    // check_GCD(n1,n2);
+    check_GCD(n1,n2);
     
 } 
