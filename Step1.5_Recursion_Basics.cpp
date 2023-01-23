@@ -1,11 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
- void solve(int n) {
-    int sum = n * (n + 1) / 2;
-    cout <<"The sum of the first "<< n <<" numbers is: "<< sum << endl;
-  }
-
 void printArray(int arr[], int n) {
    cout << "The reversed array is:- " << endl;
    for (int i = 0; i < n; i++) {
