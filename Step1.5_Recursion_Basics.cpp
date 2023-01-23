@@ -6,7 +6,6 @@ using namespace std;
     cout <<"The sum of the first "<< n <<" numbers is: "<< sum << endl;
   }
 
-//Function to print array
 void printArray(int arr[], int n) {
    cout << "The reversed array is:- " << endl;
    for (int i = 0; i < n; i++) {
@@ -14,7 +13,6 @@ void printArray(int arr[], int n) {
    }
 }
 
-//Function to reverse array using recursion
 void reverseArray(int arr[], int start, int end) {
    if (start < end) {
       swap(arr[start], arr[end]);
@@ -23,8 +21,9 @@ void reverseArray(int arr[], int start, int end) {
 }
 
  int main() {
-    solve(5);
-    solve(6);
+  
+    solve(8);
+    solve(3);
   
    int n = 5;
    int arr[] = { 5, 4, 3, 2, 1 };
