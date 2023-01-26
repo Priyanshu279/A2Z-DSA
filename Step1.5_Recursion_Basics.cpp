@@ -2,7 +2,7 @@
 using namespace std;
 
 void printArray(int arr[], int n) {
-   cout << "The reversed array is:- " << endl;
+   cout << "Reverse array " << endl;
    for (int i = 0; i < n; i++) {
       cout << arr[i] << " ";
    }
