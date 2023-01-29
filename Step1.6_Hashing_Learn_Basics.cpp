@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main() {
@@ -92,8 +91,6 @@ int main() {
     //check the frequency of key "5"
     cout<<kk[5];
     cout<<"\n";
-    
-    
-    
+   
     return 0 ; 
 }
