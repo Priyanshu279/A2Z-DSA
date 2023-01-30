@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    
     unordered_set<int> b ; 
     //inserting numbers in the unordered set
     b.insert(2);
@@ -18,7 +19,7 @@ int main() {
     {
         cout<<"Not found";
     }
-    cout<<"\n";
+    cout<<endl;
     set<int> g ; 
     
     //inserting numbers in the set
@@ -36,7 +37,7 @@ int main() {
     {
         cout<<"Not found";
     }
-    cout<<"\n";
+    cout<<endl;
    // ------------------
     
     unordered_map <int,int> d ; 
@@ -59,11 +60,11 @@ int main() {
     {
         cout<<"Not found";
     }
-    cout<<"\n";
+    cout<<endl;
     
     //check the frequency of key "5"
     cout<<d[5];
-    cout<<"\n";
+    cout<<endl;
     
     
     map <int,int> kk ; 
@@ -86,11 +87,11 @@ int main() {
     {
         cout<<"Not found";
     }
-    cout<<"\n";
+    cout<<endl;
     
     //check the frequency of key "5"
     cout<<kk[5];
-    cout<<"\n";
+    cout<<endl;
    
     return 0 ; 
 }
