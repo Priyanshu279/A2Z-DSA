@@ -49,9 +49,17 @@
     and features of the other class. 
     The class which inherits the features is known 
     as the child class, and the class whose features 
-    it inherited is called the parent class. 
+    is inherited is called the parent class. 
     For example, Class Vehicle is the parent class, 
     and Class Bus, Car, and Bike are child classes.
+    
+    Types of Inheritance
+        
+        Single Inheritance 
+        Multiple Inheritance 
+        Multi-level Inheritance 
+        Hybrid Inheritance 
+        Hierarchical Inheritance
 */
 
 /* 
@@ -60,6 +68,9 @@
     There are 2 types of polymorphism 
     1.Compile Time --Function Overloading, Operator Overloading
     2.Run Time - Function Overriding
+    
+    compile time - static or early binding, in this compiler decides what shape or value has to be taken by the entity in the picture.
+    run time - dynamic or late binding, in this shape or value has to be taken depends upon the execution. eg virtual functions.
 */
 
 #include<bits/stdc++.h>
