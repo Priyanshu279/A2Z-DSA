@@ -31,6 +31,7 @@
     FROM Orders
     RIGHT JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID
     ORDER BY Orders.OrderID;
+    
  */
 
 //  Returns all records when there is a match in either left or right table
