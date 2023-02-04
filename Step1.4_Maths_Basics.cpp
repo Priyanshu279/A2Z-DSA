@@ -28,7 +28,7 @@ void extraction_Of_Digits(int n){
 void count_Digits(int n){
     int x = n;
     int cnt = 0;
-    while(x>0){
+    while(x > 0){
         x = x/10;
         cnt++;
     }
@@ -38,7 +38,7 @@ void count_Digits(int n){
 void reverse_Number(int n){
     int x = n;
     int rev = 0;
-    while(x!=0){
+    while(x != 0){
         int lastdigit = x%10;
         rev = (rev*10)+lastdigit;
         x = x/10;
@@ -75,7 +75,7 @@ void check_Armstrong(int n){
     int t = n;
     int sum = 0;
 
-    while(t!=0){
+    while(t != 0){
         cnt++;
         t = t/10;
     }
@@ -114,7 +114,7 @@ void print_Divisor(int n){
 void check_Prime(int n){
     bool d = false;
     for(int i = 2; i<n; i++){
-        if(n%i==0){
+        if(n%i == 0){
             d = true;
         }
     }
