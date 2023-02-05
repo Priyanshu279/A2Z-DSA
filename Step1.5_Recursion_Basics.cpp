@@ -25,5 +25,4 @@ void reverseArray(int arr[], int start, int end) {
   
   reverseArray(arr, 0, n - 1);
    printArray(arr, n);
-   return 0;
  }
