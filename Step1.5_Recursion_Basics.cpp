@@ -15,6 +15,11 @@ void reverseArray(int arr[], int start, int end) {
    }
 }
 
+void solve(int N) {
+    int sum = N * (N + 1) / 2;
+    cout<<"The sum of the first "<<N<<" numbers is: "<<sum<<endl;
+  }
+
  int main()
  { 
     solve(8);
