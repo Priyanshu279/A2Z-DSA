@@ -410,7 +410,7 @@ int main(){
     // TC of below code is O(N*3)
 
     for(i = 1; i<=n; i++){
-        cout << "Ram";
+        cout << "Raj";
     }
 
     // There are 3 things
