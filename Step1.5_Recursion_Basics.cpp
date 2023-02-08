@@ -18,7 +18,7 @@ void reverseArray(int arr[], int start, int end) {
  int main(){
   
    int n = 5;
-   int arr[] = { 5, 4, 3, 2, 1 };
+   int arr[] = { 1, 2, 3, 4, 5};
   
    reverseArray(arr, 0, n - 1);
    printArray(arr, n);
