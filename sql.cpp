@@ -42,8 +42,6 @@
     ORDER BY Customers.CustomerName; 
 */
 
-
-
 // NORMALIZATION
 
 /* 
