@@ -131,8 +131,8 @@ void check_Prime(int n){
 
 void print_GCD(int num1, int num2){
     int gcd;
-    for(int i = 1; i<=min(num1,num2); i++){
-        if(num1%i==0 && num2%i==0){
+    for(int i = 1; i <= min(num1,num2); i++){
+        if(num1%i == 0 && num2%i==0){
             gcd = i;
         }
     }
@@ -148,7 +148,7 @@ void check_GCD(int n1,int n2){
         else n2 = n2 % n1;
     }
     
-    if(n1==0) cout << n2;
+    if(n1 == 0) cout << n2;
     cout << n1;
 }
 
