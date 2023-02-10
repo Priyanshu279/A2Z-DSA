@@ -21,13 +21,13 @@
 */
 
 /*
-    Classes - Class can be defined as a blueprint of the object. It is basically
+    Class - Class can be defined as a blueprint of the object. It is basically
     a collection of objects which act as building blocks. 
     class contains Data members and Member functions.
 */
 
 /* 
-    Abstraction means displaying only essential information and hiding the details.
+    Abstraction - Abstraction means displaying only essential information and hiding the details.
     Data abstraction refers to providing only essential information about the data 
     to the outside world, hiding the background details or implementation.
 */
@@ -69,8 +69,8 @@
     1.Compile Time --Function Overloading, Operator Overloading
     2.Run Time - Function Overriding
     
-    compile time - static or early binding, in this compiler decides what shape or value has to be taken by the entity in the picture.
-    run time - dynamic or late binding, in this shape or value has to be taken depends upon the execution. eg virtual functions.
+    Compile time - static or early binding, in this compiler decides what shape or value has to be taken by the entity in the picture.
+    Run time - dynamic or late binding, in this shape or value has to be taken depends upon the execution. eg virtual functions.
 */
 
 #include<bits/stdc++.h>
