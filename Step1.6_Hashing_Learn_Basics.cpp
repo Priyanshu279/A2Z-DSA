@@ -20,7 +20,7 @@ int main() {
         cout<<"Not found";
     }
     cout<<endl;
-    set<int> g ; 
+    set<int> g; 
     
     //inserting numbers in the set
     g.insert(2);
@@ -93,5 +93,5 @@ int main() {
     cout<<kk[5];
     cout<<endl;
    
-    return 0 ; 
+
 }
