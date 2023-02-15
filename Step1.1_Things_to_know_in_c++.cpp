@@ -465,7 +465,7 @@ int main(){
     // Again we use Big-Oh notation for SC
     // SC-> Auxillary space(space that you take to solve the problem) + input space(the space that you take to store the input)
 
-    int a,b;
+    int a, b;
     cin >> a >> b;
     c = a + b; 
     
@@ -474,4 +474,4 @@ int main(){
     // combied "c + a & b" is SC = (Auxi..+ Input Size)
 
     // Most of the server takes 1 second for 10^8 Operations
-    
+  
